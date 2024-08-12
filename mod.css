@@ -1,0 +1,471 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Cairo';
+}
+header {
+    width: 100%;
+    background-color: #141414;
+    height: 25vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr 1fr ;
+    grid-template-rows: 90px 60px;
+}
+
+#logo{
+    display: flex;
+    grid-column: 2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Gupter';
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+#home{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home a{
+    text-decoration: none;
+    font-family: 'Kumar One';
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    color: #dd0f0f;
+}
+
+#contato{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contato a{
+    text-decoration: none;
+    font-family: 'Kumar One';
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+#contato a:hover{
+    color: #fbff05e5;
+    font-size: 25px; 
+    transition: 0.4s;
+}
+
+#Cardapio{
+    grid-column: 5;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#Cardapio a{
+    text-decoration: none;
+    font-family: 'Kumar One';
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+
+#Cardapio a:hover{
+    color: #fbff05e5;
+    font-size: 25px;
+    transition: 0.4s; 
+}
+
+#login{
+    display: flex;
+    grid-column: 7/8;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+#icon-login{
+    width: 50px;
+    height: 13vh;
+}
+
+#botom-login{
+    margin-top: 45px;
+    border-radius: 30px;
+    padding: 8px 15px;
+    background-color: #ffd903;
+    border-color: #dbba24;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+#botom-login a{
+    text-decoration: none;
+    font-family: 'Kumar One';
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+#pesqu{
+    display: flex;
+    grid-column: 7/8;
+    grid-row: 2; 
+    justify-content: center;
+}
+
+#input{
+    margin-top: 40px;
+    
+}
+#imp_texto{
+    border-radius: 30px;
+    width: 125%;
+    height: 3vh;
+    border: #ffd903 solid 3px;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+body{
+    background-color: #9E1C1C;
+}
+
+#quemsomos{
+    background-color: #ddc228d0;
+    width: 75%;
+    height: 105vh; 
+    margin-left: 200px;
+    margin-right:  75px;
+}
+
+#quemsomos h1{
+   text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-family: 'Kumar one';
+}
+
+#quemsomos p{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: 'Gupter';
+}
+
+#tex1 h1{
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Gupter';
+    font-weight: 600;
+}
+
+#tex1 h1:after {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    right: 0;
+    height: 4px;
+    width: 240px;
+    background: #fffc3bec;
+    content: "";
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+}
+
+#pra-prin{
+    display: grid;
+    margin: 0;
+    width: 100%;
+    background-color: #222222;
+    height: 55vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 80px;
+    align-items: center;
+}
+
+#pra-prin img{
+    width: 365px;
+    height: 300px;
+}
+
+#pri1{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#pri1:hover{
+    border: #ffe600 solid 7px;
+}
+
+#pri2{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#pri2:hover{
+    border: #ffe600 solid 7px;
+}
+
+#pri3{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#pri3:hover{
+    border: #ffe600 solid 7px;
+}
+
+.descre{
+    color: #ffffff;
+    font-size:  20px;
+    font-family: 'Gupter';
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 1.3;
+}
+
+.preco{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Gupter';
+    font-weight: 700;
+}
+
+#sobre{
+    display: grid;
+    margin: 0;
+    width: 100%;
+    height: 55vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 90px;
+    align-items: center;
+}
+
+#sobre img{
+    width: 365px;
+    height: 350px;
+}
+
+#sobr1{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#sobr1:hover{
+    border: #ffe600 solid 7px;
+}
+
+#sobr2{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#sobr2:hover{
+    border: #ffe600 solid 7px;
+}
+
+#sobr3{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+#sobr3:hover{
+    border: #ffe600 solid 7px;
+}
+
+footer{
+    margin-top: 100px;
+    display: grid;
+    width: 100%;
+    background-color: #222222;
+    height: 59vh;
+    grid-template-rows: 180px 110px 90px 40px 40px;
+    grid-template-columns:1.5fr 2.0fr 2.0fr 2.0fr 1.5fr;
+    gap: 20px;
+}
+
+#logo2{
+    display: flex;
+    grid-column: 2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Gupter';
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    line-height: 1.3;
+}
+
+#pess{
+    display: grid;
+    padding-top: 30px;
+    grid-column: 2;
+    grid-row: 2;
+    gap: 15px;
+}
+
+#ender{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gupter';
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#numbe{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gupter';
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#email{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Gupter';
+    font-weight: 600;
+    color: #ffffff;
+}
+
+#empre{
+    grid-column: 3;
+    grid-row: 1/2;
+}
+
+#compa{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gupter';
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    padding: 70px;
+}
+
+#colun{
+    display: flex;
+    gap: 10px;
+}
+
+.colunas{
+    line-height: 1.5;
+    display: grid;
+    gap: 6px;
+    list-style: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Gupter';
+}
+
+#areaemail{
+    padding-top: 90px;
+    grid-column: 4;
+    grid-row: 1/3;
+    display: grid;
+    gap: 45px;
+}
+
+#titu2{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gupter';
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#subtitu{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gupter';
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 10px;
+    line-height: 1.7;
+}
+
+#enteremail{
+    display: flex;
+}
+
+#Colocaremail{
+    text-align: center;
+    width: 75%;
+    height: 60px;
+    font-size: 20px;
+    font-family: 'Gupter';
+    font-weight: 500;
+    color: #fff;
+}
+
+#botao-email{
+    padding-top: 16px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    height: 60px;
+    width: 35%;
+    text-align: center;
+    background: #ecea51;
+}
+
+#botao-email a{
+    text-decoration: none;
+    font-family: 'Gupter';
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    color: #000000; 
+}
+
+#linha{
+    grid-column: 2/5;
+    grid-row: 4;
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#sun{
+    grid-row: 5;
+    grid-column: 2;
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Gupter';
+    font-weight: 600;
+}

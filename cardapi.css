@@ -9,7 +9,8 @@ header {
     height: 25vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr 1fr ;
-    grid-template-rows: 90px 60px;
+    grid-template-rows: 
+    45% 35%;
 }
 
 #logo{
@@ -93,11 +94,11 @@ header {
     grid-column: 7/8;
     justify-content: center;
     text-align: center;
-    gap: 20px;
+    gap: 5%;
 }
 
 #icon-login{
-    width: 50px;
+    width: 35%;
     height: 13vh;
 }
 
@@ -150,12 +151,12 @@ body{
 
 #barra_busca{
     width: 100%;
-    height: 32vh;
+    height: 42vh;
     background-color: #9E1C1C ;
 }
 
 #busca{
-    padding-top: 50px;
+    padding-top: 2.5%;
     justify-content: center;
     display: flex;
     gap: 10px;
@@ -172,12 +173,12 @@ body{
 }
 
 #icon-busca{
-    width: 60px;
-    height: 60px;
+    width: 4.5%;
+    height: 1.5vh;
 }
 
 .filtrar{
-    padding: 25px;
+    padding: 2.2%;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -271,8 +272,8 @@ body{
     left: 0;
     bottom: -1px;
     right: 0;
-    height: 3px;
-    width: 550px;
+    height: 0.3vh;
+    width: 100%;
     background: #c21c1cec;
     content: "";
     margin-top: 0px;
@@ -298,8 +299,8 @@ body{
     left: 0;
     bottom: -1px;
     right: 0;
-    height: 3px;
-    width: 550px;
+    height: 0.3vh;
+    width: 100%;
     background: #c21c1cec;
     content: "";
     margin-top: 0px;
@@ -318,21 +319,21 @@ body{
     font-size: 2.8rem;
 }
 
-#Bebidas{
-    font-size: 54px;
+#almo{
     text-align: center;
+    font-size: 50px;
     font-family: 'Gupter';
-    font-weight: 600;
+    color: #000000;
     position: relative;
 }
 
-#Bebidas:after {
+#almo:after {
     position: absolute;
     left: 0;
     bottom: -1px;
     right: 0;
-    height: 3px;
-    width: 240px;
+    height: 0.6vh;
+    width: 24%;
     background: #c21c1cec;
     content: "";
     margin-top: 0px;
@@ -341,18 +342,79 @@ body{
     margin-left: auto;
 }
 
-#Bebidas::before{
-    position: absolute;
-    left: 0;
-    bottom: 55px;
-    right: 0;
-    height: 4px;
-    width: 240px;
-    background: #c21c1cec;
-    content: "";
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-left: auto;    
+#executivos{
+    padding-top: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#executivos img{
+    min-width: 54px;
+    min-height: 54px;
+    max-width: 145px;
+    max-height: 145px;
+    margin-left: 10px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 1px solid rgb(255, 238, 0);
+    background-color: rgb(198, 205, 212);
+}
+
+.tabela{
+    border: #9E1C1C solid 1px;
+    width: 50%;
+    background-color: #c5d304ad;
+    padding: 20px 16px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.detalhe{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.detalhe .nom{
+    font-size: 25px;
+    font-family: 'Gupter';
+    font-weight: 500;
+}
+
+.detalhe .comple{
+    font-size: 18px;
+    font-family: 'Gupter';
+    font-weight: 500;
+    color: #585858;
+}
+
+.detalhe .preco2{
+    font-size: 25px;
+    font-family: 'Gupter';
+    font-weight: 800;
+    color: #000000;
+}
+
+.icon-mais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height: 40px;
+    width: 40px;
+    background: #818181;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.icon-mais svg{
+    width: 20px;
+    height: 20px;
+}

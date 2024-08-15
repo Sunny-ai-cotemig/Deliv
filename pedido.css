@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Cairo';
+    padding: 0;
+}
+
+body{
+    background-color: #9E1C1C;
+    font-family: 'Gupter';
+}
+
+header{
+    width: 100%;
+    background-color: #141414;
+    height: 20vh;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: white;
+    font-family: 'Gupter';
+    font-size: 60px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .3em;
+}
+
+#pedidos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+
+#input-p{
+    background: #f7e702e8;
+    width: 30%;
+    border-radius: 20px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descrition{
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: 'Gupter';
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+#input-p input{
+    width: 75%;
+    height: 5vh;
+    padding: 10px 0; 
+    outline: none;
+    border: 0;
+    background: transparent;
+    border-bottom: 2px solid #9E1C1C;
+    color: #141414;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+#volt-home{
+    height: 8vh;
+    width: 55%;
+   border-radius: 25px;
+   border: 0;
+   border: #000000 solid 4px ;
+   background-color: rgb(255, 255, 255);
+}
+
+#volt-home a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Gupter';
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #000000;
+}
+
+#volt-home:hover{
+    background-color: #9E1C1C;
+    transition: 2s;
+}
+
+#agradecimentos{
+    font-size: 15px;
+    font-family: 'Gupter';
+    color: #000000;
+    font-weight: 700;
+    padding-top: 6px;
+}

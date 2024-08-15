@@ -1,0 +1,252 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Cairo';
+}
+header {
+    width: 100%;
+    background-color: #141414;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.3fr 1.3fr 1.3fr 1.3fr 1.3fr 1fr ;
+    grid-template-rows: 
+    45% 35%;
+}
+
+#logo{
+    display: flex;
+    grid-column: 2;
+    grid-row: 1/2;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Gupter';
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+}
+
+#home{
+    grid-column: 3/4;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home a{
+    text-decoration: none;
+    font-family: 'Kumar One';
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+}
+
+#home a:hover{
+    color: #fbff05e5;
+    font-size: 25px;
+    transition: 0.4s;  
+}
+
+#contato{
+    grid-column: 4/5;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contato a{
+    text-decoration: none;
+    font-family: 'Kumar One';
+    font-size: 20px;
+    color: #dd0f0f;
+    font-weight: 500;
+    text-align: center;
+    
+}
+
+#Cardapio a:hover{
+    color: #fbff05e5;
+    font-size: 25px; 
+    transition: 0.4s; 
+}
+
+#Cardapio{
+    grid-column: 5;
+    grid-row: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+#Cardapio a{
+    text-decoration: none;
+    font-family: 'Kumar One';
+    font-size: 20px;
+    color: #fffefe;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+#login{
+    display: flex;
+    grid-column: 7/8;
+    justify-content: center;
+    text-align: center;
+    gap: 5%;
+}
+
+#icon-login{
+    width: 35%;
+    height: 13vh;
+}
+
+#botom-login{
+    margin-top: 45px;
+    border-radius: 30px;
+    padding: 8px 15px;
+    background-color: #ffd903;
+    border-color: #dbba24;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+
+#botom-login a{
+    text-decoration: none;
+    font-family: 'Kumar One';
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+    text-align: center;
+
+}
+
+#pesqu{
+    display: flex;
+    grid-column: 7/8;
+    grid-row: 2; 
+    justify-content: center;
+}
+
+#input{
+    margin-top: 40px;
+    
+}
+
+body{
+    background-color: #9E1C1C;
+}
+
+#imp_texto{
+    border-radius: 30px;
+    width: 125%;
+    height: 5vh;
+    border: #ffd903 solid 3px;
+    color: #000000;
+    font-size: 15px;
+    text-align: center;
+}
+
+#conte{
+    padding-top: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#quadrado{
+    padding-top: 25px;
+    padding-left: 125px;
+    width: 80%;
+    background-color: #242424;
+    height: 85vh;
+    padding-right: 75px;
+}
+
+#quadrado h1{
+    font-family: 'Gupter';
+    font-size: 56px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+#nome{
+    margin-top: 35px;
+    display: flex;
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.inputes{
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 2.5px;
+    padding-left: 2.5px;
+    font-family: sans-serif;
+    line-height: 1.15;
+}
+
+.inputes input{
+    outline: none;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+.nomes{
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Gupter';
+    font-weight: 600;
+
+}
+
+#quadrado input{
+    outline: none;
+    border: 0;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+}
+
+#mensagem{
+    margin-top: 30px;
+}
+
+#mens{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Gupter';
+    font-weight: 600;
+}
+
+#areatexto{
+    outline: none;
+    height: auto;
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
+    height: 25vh;
+}

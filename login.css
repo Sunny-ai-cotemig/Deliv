@@ -30,176 +30,76 @@ header h1{
     letter-spacing: .3em;
 }
 
-#container{
-    padding-top: 10vh;
+main{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 65vh;
+    min-height: 80vh;
+}
+.login{
+    background: #f7e702e8;
+    width: 30%;
+    border-radius: 28px;
+    padding: 40px;
 }
 
-.content{
-    border-radius: 15px;
-    background-color:  #b5b802;
-    height: 60vh;
-    width: 900px;
-    justify-content: space-between;
-    align-items: center;
+.login h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    text-align: center;
+    font-family: 'Gupter';
+}
+
+.login1{
+    position: absolute;
+}
+
+.login .inbox-user{
     position: relative;
 }
 
-.content::before{
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 40%;
-    background-color: rgb(145, 3, 3);
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    left: 60%;
-}
-
-.first-content{
-    display: flex;
-    display: none;
-}
-
-.first-colum{
-    text-align: center;
-    flex: 1 0 auto;
-    z-index: 10;
-}
-
-.titulo-welcame{
-    color: #ffffff;
-    font-size: 30px;
-    font-weight: bolder;
-    text-transform: capitalize;
-}
-
-.titulo-crate{
-    color: #000000;
-    font-size: 30px;
-    font-weight: bolder;
-    text-transform: capitalize;
-}
-
-.description {
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 4vh;
-    color: #ffffff;
-}
-
-.btn{
-    border-radius: 15px;
-    text-transform: uppercase;
-    color: #b5b802;
-    font-size: 12px;
-    padding: 10px 40px;
-    cursor: pointer;
-    font-weight: bold;
-    width: 140px;
-    align-self: center;
-    border: none;
-    padding-top: 1rem;
-}
-
-.btn-primay{
-    background-color: transparent;
-    border: solid 1px white;
-}
-
-.btn-primay:hover{
-    background-color: #b5b802;
-    color: #9E1C1C;
-    transition: 2s;
-}
-
-.btn-second{
-    background-color: #9E1C1C;
-    border: 1px solid #000000;
-}
-
-.btn-second:hover{
-    background-color: transparent;
-    color: #ffffff;
-    border: 1px solid #9E1C1C;
-    transition: 2s;
-}
-
-.second-colum{
-    flex: 2 0 auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.icon-midia{
-    display: flex;
-    list-style: none;
-    gap: 10px;
-}
-
-.form{
-    display: flex;
-    flex-direction: column;
-    width: 65%;
-}
-/*second-content*/
-.second-content{
-  display: flex;
-}
-
-.icon-midia svg{
-    width: 20px;
-    height: 15px;
-}
-
-.item-midia{
-    border: 1px solid white;
-    border-radius: 50%;
-    width: 35px;
-    height: 35px;
-    line-height: 35px;
-    text-align: center;
-}
-
-.description-segond{
-    color: #2e2e2e;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 4vh;
-}
-
-.form input{
-    height: 6vh;
+.login .inbox-user input{
+    width: 100%;
+    padding: 10px 0; 
+    outline: none;
     border: 0;
-    background-color: rgb(204, 204, 204);
-    margin: 8px;
-    border-radius: 12px;
+    background: transparent;
+    border-bottom: 2px solid #9E1C1C;
+    color: #141414;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
 
-.item-midia:hover{
-    background-color: #9E1C1C;
-    transition: 2s;
+.forget{
+    text-decoration: none;
+    font-size: 18px;
+    color: #141414;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+    font-family: 'Gupter';
+    text-transform: uppercase;
 }
 
-.second-content .first-colum{
-    order: 2;
-}
-
-.second-content .second-colum{
-    order: 1;
-}
-
-#esqueci-senha{
-    color: #000000;
+#btn{
+    position: relative;
+    display: inline-block;
+    padding: 12px 20px;
+    color: #9E1C1C;
+    text-decoration: none;
     font-size: 15px;
-    margin: 15px 0px;
-    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 20px;
+    transition: 5s;
+   
+    font-weight: 700;
+    font-family: 'Gupter';
 }
 
-#esqueci-senha::first-letter{
-    text-transform: capitalize;
+#btn:hover{
+    background: #141414
 }
+
